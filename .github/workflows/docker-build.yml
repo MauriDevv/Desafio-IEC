@@ -3,7 +3,7 @@ name: Build and Push Docker Image
 on:
   push:
     branches:
-      - Amauri
+      - main
   workflow_dispatch: # permite rodar manualmente
  
 jobs:
