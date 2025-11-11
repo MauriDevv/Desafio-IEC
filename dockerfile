@@ -3,7 +3,7 @@ FROM php:8.4-apache
 # Habilitando as extensões do PHP para conexão com o MySQL.
 RUN docker-php-ext-install mysqli pdo pdo_mysql
 
-# Habilitando a extensão Rewrite do Apache para trabalhar com rotas.
+# Habilitando a extensão Redwrite do Apache para trabalhar com rotas.
 RUN a2enmod rewrite
 
 # O caminho é fixo: /var/www/html/
